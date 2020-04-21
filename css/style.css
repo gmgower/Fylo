@@ -16,6 +16,9 @@ body {
 
 /* ================= Layout ================= */
 
+
+/*  Start of Header Section */
+
 header {
   background-color: hsl(217, 28%, 15%);
 }
@@ -23,21 +26,19 @@ header {
 .container {
   margin: 0 auto;
   max-width: 100%;
-  width: 1200px;
+  width: 1440px;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
-  width: 90%;
-  margin: 0 auto;
+  padding: 15px;
  }
 
 nav ul {
   list-style: none;
   padding: 0;
   display: flex;
-  /* justify-content: center; */
 }
 
 nav li {
@@ -45,6 +46,7 @@ nav li {
 }
 
 nav a {
+  font-family: 'Raleway', sans-serif;
   text-decoration: none;  
   color: #707070;
   font-weight: 700;
@@ -56,4 +58,5 @@ nav a:focus {
   color: #4fc6d7;
 }
 
+/*  End of Header Section */
 

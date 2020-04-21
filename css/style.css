@@ -8,14 +8,52 @@ body {
   margin: 0;
   background-color: hsl(218, 28%, 13%);
   color: hsl(0, 0%, 100%);
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* ================= Typography ================= */
 
 
-/* =================
-Layout
-================= */
-/* img {
-    background-color:  black;
-} */
+/* ================= Layout ================= */
+
+header {
+  background-color: hsl(217, 28%, 15%);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 100%;
+  width: 1200px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+ }
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  /* justify-content: center; */
+}
+
+nav li {
+  margin-left: 1.5em;
+}
+
+nav a {
+  text-decoration: none;  
+  color: #707070;
+  font-weight: 700;
+  padding: .25em 0;
+}
+
+nav a:hover,
+nav a:focus {
+  color: #4fc6d7;
+}
+
+

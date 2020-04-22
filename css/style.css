@@ -13,7 +13,6 @@ body {
 
 /* ================= Typography ================= */
 
-
 /* ================= Layout ================= */
 
 
@@ -27,6 +26,10 @@ header {
   margin: 0 auto;
   max-width: 100%;
   width: 1440px;
+}
+
+img {
+  max-width: 100%;
 }
 
 nav {
@@ -56,6 +59,13 @@ nav a {
 nav a:hover,
 nav a:focus {
   color: #4fc6d7;
+}
+
+.cta {
+  max-width: 100%;
+  width: 600px;
+  margin: 20px auto;
+  text-align: center;
 }
 
 /*  End of Header Section */

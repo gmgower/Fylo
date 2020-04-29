@@ -37,7 +37,7 @@ header {
 
 img {
   max-width: 100%;
-  display: block;
+  /* display: block; */
 }
 
 nav {
@@ -110,11 +110,23 @@ nav a:focus {
 
 
 /*  Start of Services Section */
-.services {
-  max-width: 100%;
-  width: 600px;
-  margin: 20px auto;
-  text-align: center;
+.service-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
+
+.service {
+  width: 400px;
+  text-align: center;
+  margin: 4em;
+}
+
+.service-body {
+  line-height: 1.4;
+}
+
+
 /*  End of Services Section */
 

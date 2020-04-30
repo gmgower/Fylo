@@ -27,6 +27,11 @@ a {
 
 header {
   background-color: hsl(217, 28%, 15%);
+  background-image: url('/images/bg-curvy-desktop.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  padding-bottom: 123px;
 }
 
 .container {
@@ -81,7 +86,7 @@ nav a:focus {
 }
 
 .illustration-body {
-  margin: 0em 3em 1em;
+  margin: 0em 3em 2em;
 }
 
 .start-btn {

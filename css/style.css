@@ -21,6 +21,10 @@ a {
   color: hsl(0, 0%, 100%);
 }
 
+p {
+  line-height: 1.5;
+}
+
 /* ================= Layout ================= */
 
 /*  Start of Header Section */
@@ -80,10 +84,10 @@ nav a:focus {
   text-align: center;
 }
 
-.illustration-title,
+/* .illustration-title,
 .illustration-body {
   line-height: 1.5;
-}
+} */
 
 .illustration-body {
   margin: 0em 3em 2em;
@@ -128,22 +132,26 @@ nav a:focus {
   margin: 4em;
 }
 
-.service-body {
+/* .service-body {
   line-height: 1.4;
-}
-
+} */
 
 /*  End of Information Section */
-
-.information {
-  max-width: 100%;
-  width: 600px;
-  margin: 20px auto;
-  text-align: center;
+.information-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* padding: 20px; */
 }
 
-/* Start of Info Section * /
+.information-images {
+  width: 500px;
+  margin-right: 50px;
+}
 
-
-
+.information-section {
+  flex: 1;
+  width: 400px;
+}
 /* End of Information Section * /

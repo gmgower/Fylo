@@ -3,6 +3,10 @@
 /* Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap");
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   background-color: hsl(218, 28%, 13%);
@@ -39,6 +43,7 @@ header {
 }
 
 .container {
+  padding: 20px;
   margin: 0 auto;
   max-width: 100%;
   width: 1440px;
@@ -146,7 +151,7 @@ nav a:focus {
 }
 
 .information-images {
-  width: 500px;
+  width: 400px;
   margin-right: 50px;
 }
 
@@ -156,5 +161,13 @@ nav a:focus {
 }
 /* End of Information Section * /
 
-<!-- Start of Testimonial Section-->
-<!-- End of Testimonial Section-->
+/* Start of Testimonial Section */
+
+.testimonial {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+
+/* End of Testimonial Section */

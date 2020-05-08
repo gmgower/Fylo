@@ -179,5 +179,14 @@ nav a:focus {
   max-width: 400px;
 }
 
+.testimonial-body {
+  display: flex;
+}
 
+.testimonial-images {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
 /* End of Testimonial Section */

@@ -163,7 +163,7 @@ nav a:focus {
 
 /* Start of Testimonial Section */
 
-.testimonial {
+.testimonials {
   display: flex;
   justify-content: center;
   align-self: center;
@@ -172,21 +172,33 @@ nav a:focus {
 .testimonial-card {
   background-color: hsl(219, 30%, 18%);
   border-radius: 5px;
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
   flex: 1;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
   padding: 20px;
   margin: 10px;
   max-width: 400px;
 }
 
-.testimonial-body {
+.testimonial-user {
   display: flex;
 }
 
 .testimonial-images {
   border-radius: 50%;
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   margin-right: 10px;
+}
+
+.testimonial-sig-block {
+  margin-top: 4px;
+}
+
+.testimonial-name {
+  margin: 0;
+}
+
+.testimonial-position {
+  margin: 5px 0;
 }
 /* End of Testimonial Section */

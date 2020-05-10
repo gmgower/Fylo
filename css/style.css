@@ -159,6 +159,12 @@ nav a:focus {
   flex: 1;
   width: 400px;
 }
+
+.fylo-arrow {
+  text-decoration: none;
+  color: hsl(176, 68%, 64%);
+  border-bottom: 1px solid hsl(176, 68%, 64%);
+}
 /* End of Information Section * /
 
 /* Start of Testimonial Section */
@@ -181,6 +187,7 @@ nav a:focus {
 
 .testimonial-user {
   display: flex;
+  margin-top: 30px;
 }
 
 .testimonial-images {
@@ -200,5 +207,7 @@ nav a:focus {
 
 .testimonial-position {
   margin: 5px 0;
+  opacity: 0.7;
+  font-weight: normal;
 }
 /* End of Testimonial Section */

@@ -35,7 +35,7 @@ p {
 
 header {
   background-color: hsl(217, 28%, 15%);
-  background-image: url('/images/bg-curvy-desktop.svg');
+  background-image: url("/images/bg-curvy-desktop.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left bottom;
@@ -122,7 +122,6 @@ nav a:focus {
 
 /*  End of Header Section */
 
-
 /*  Start of Services Section */
 .service-row {
   display: flex;
@@ -172,7 +171,7 @@ nav a:focus {
 .testimonials {
   display: flex;
   justify-content: center;
-  align-self: center;
+  margin: 40px auto;
 }
 
 .testimonial-card {
@@ -211,3 +210,18 @@ nav a:focus {
   font-weight: normal;
 }
 /* End of Testimonial Section */
+
+/*
+Start of Sign Up Section
+*/
+.form-container {
+  max-width: 100%;
+  width: 900px;
+  background-color: hsl(217, 28%, 15%);
+  padding: 40px;
+  margin: 0 auto 0;
+}
+
+/*
+End of Sign Up Section
+*/

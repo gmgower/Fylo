@@ -216,7 +216,8 @@ Start of Sign Up Section
 */
 .form-container {
   max-width: 100%;
-  margin: 0 auto -100px;
+  margin: 0 auto;
+  margin-top: 80px;
   position: relative;
   width: 900px;
   background-color: hsl(217, 28%, 15%);

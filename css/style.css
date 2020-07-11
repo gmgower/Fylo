@@ -250,10 +250,15 @@ Start of Sign Up Section
   margin-right: 20px;
 }
 
-.form-body {
-  /* padding: 10px */
+.started-btn {
+  display: inline-block;
+  color: hsl(0, 0%, 100%);
+  padding: 18px 50px;
+  border-radius: 5em;
+  border: 0;
+  text-decoration: none;
 }
 
 /*
 End of Sign Up Section
-*/
+*/ 

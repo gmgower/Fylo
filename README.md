@@ -1,3 +1,6 @@
+## 🛠  Comment
+A little project I did from Frontend Mentor to challenge my HTML and CSS knoweldge and skills. 
+
 # Frontend Mentor - Fylo landing page with dark theme and features grid
 
 ![Design preview for the Fylo landing page with dark theme and features grid challenge](./design/desktop-preview.jpg)

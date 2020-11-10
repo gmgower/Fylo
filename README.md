@@ -1,5 +1,5 @@
 ## 🛠  Comment
-A little project I did from Frontend Mentor to challenge my HTML and CSS knoweldge and skills. 
+A little project I did from Frontend Mentor to challenge my HTML and CSS knowledge and skills. 
 
 # Frontend Mentor - Fylo landing page with dark theme and features grid
 
